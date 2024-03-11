@@ -27,8 +27,8 @@
 
   - name: installing npm
     ansible.builtin.shell: "npm install"
-      args: 
-        chdir: /app
+    args: 
+      chdir: /app
 
   - name: Copy file 
     ansible.builtin.copy:
