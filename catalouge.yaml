@@ -1,5 +1,5 @@
 - name: install Catalogue component
-  host: Catalogue
+  hosts: Catalogue
   become: yes
   tasks:
   - name: install Catalogue
