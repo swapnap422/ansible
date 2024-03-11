@@ -55,7 +55,7 @@
       state: installed
 
   - name: connecting to mongo schema
-    ansible.builtin.shell: mongo --host 172.31.89.145 </app/schema/catalogue.js
+    ansible.builtin.shell: mongo --host 44.202.89.66 </app/schema/catalogue.js
 
   - name: enabled and start catalogue
     ansible.builtin.service:
