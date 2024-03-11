@@ -14,7 +14,7 @@
       state: started
 
   - name: delete the file
-    ansible.builtin.path:
+    ansible.builtin.file:
       path: /usr/share/nginx/html/*
       state: absent
 
